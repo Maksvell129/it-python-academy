@@ -9,8 +9,6 @@ def process_telemetry(device_id: str, status: str = 'stable', *args: float) -> f
 
 log1 = process_telemetry('d1', 'critical',36.6, 120.0)
 print(f'Пример 1: {log1}')
-log2 = process_telemetry('d2', 'stable',4.5, 5.2, 4.8, 6.1)
-print(f'Пример 2: {log2}')
 log3 = process_telemetry('d3')
 print(f'Пример 3: {log3}')
 
